@@ -31,7 +31,7 @@ The container streams video using the H.264 video codec and AAC audio codec. The
 
 2. **Run the Docker Container:**
    ```bash
-   docker run -e VIDEO_NAME=video2.mp4 -e SRT_IP=192.168.1.100 -e SRT_PORT=4900 ffmpeg-srt-streamer
+   docker run -e VIDEO_NAME=video2.mp4 -e SRT_IP=192.168.1.100 -e SRT_PORT=4900 ffmpeg_video_source_srt_caller
    ```
 
    Adjust the `VIDEO_NAME`, `SRT_IP`, and `SRT_PORT` environment variables as needed.
